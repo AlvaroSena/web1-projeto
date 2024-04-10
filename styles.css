@@ -111,7 +111,7 @@ button {
   margin: 32px 0;
 }
 
-.product-info .btn-purchase {
+.btn-purchase {
   color: #FFF;
   background: #FF0000;
   padding: 24px 48px;
@@ -121,4 +121,59 @@ button {
 
 .scrolled {
   background: #FFF;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+#shop {
+  margin-top: 128px;
+}
+
+#shop .shop-heading {
+  margin-bottom: 2rem;
+  font-size: 32px;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  border-radius: 8px;
+}
+
+#card img {
+  border-radius: 8px 8px 0 0;
+}
+
+#card .product-data {
+  padding: 16px 20px;
+}
+
+#card .product-data .product-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#card .product-data .product-description {
+  font-size: 14px;
+  color: #9C9696;
+  margin-top: 8px;
+}
+
+#card .product-data .product-price {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.small{
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0 0 8px 8px;
 }
