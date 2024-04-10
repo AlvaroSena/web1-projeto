@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ECECED;
 }
@@ -181,4 +185,58 @@ button {
 #about {
   padding: 48px 0;
   background: #C4C4C4;
+  margin: 128px 0;
+}
+
+#contact-us {
+  background: #FFF;
+
+}
+
+#contact-us .contact-us-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contact-us .contact-us-content ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#contact-us .contact-us-content ul li {
+  list-style-type: none;
+  padding: 48px 48px;
+}
+
+#contact-us .contact-us-content ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact-us .contact-us-content .btn-contact-us {
+  background: #000;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 48px 80px;
+  transition: 0.2s;
+}
+
+svg {
+  transition: 0.2s;
+}
+
+#contact-us .contact-us-content .btn-contact-us:hover svg {
+  margin-left: 8px;
+}
+
+#contact-us .contact-us-content .btn-contact-us:hover {
+  text-decoration: underline;
 }
