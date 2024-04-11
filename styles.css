@@ -127,7 +127,7 @@ button {
   background: #FFF;
 }
 
-.d-grid {
+.article-d-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
@@ -175,6 +175,50 @@ button {
   margin-top: 16px;
 }
 
+aside {
+  background-color: #FFF;
+  border-radius: 5px;
+  margin-top: 128px;
+  border-radius: 8px;
+}
+
+.promo-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.promo-offer img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.promo-offer .promo-offer-description {
+  font-size: 18px;
+}
+
+.promo-offer .btn-shop-now {
+  background: #FF0000;
+  color: #FFF;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.promo-offer .btn-shop-now:hover svg {
+  margin-left: 8px;
+}
+
+.promo-offer .btn-shop-now:hover {
+  text-decoration: underline;
+}
+
 .small{
   padding: 1rem;
   font-weight: bold;
@@ -188,9 +232,18 @@ button {
   margin: 128px 0;
 }
 
+#about .about-us-d-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+#about .about-us-d-flex .about-us-description {
+  font-size: 16px;
+}
+
 #contact-us {
   background: #FFF;
-
 }
 
 #contact-us .contact-us-content {
