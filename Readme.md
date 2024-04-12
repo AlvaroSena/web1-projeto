@@ -1,6 +1,6 @@
 <img title="Banner" src="./assets/banner.png">
 
-# Loja de Tênis Eportivos
+# HTML Semântico
 Aplicação web desenvolvida com HTML e CSS destinada ao projeto de WEB 1 do primeiro semestre da FATEC
 
 Acesse: https://alvarosena.github.io/web1-projeto/
@@ -14,7 +14,7 @@ O HTML Semântico é uma forma de escrever o seu código HTML de modo que convé
 Usar o HTML Semântico, além de melhorar a estrutura e a organização do seu código, melhora, também, a navegação dos elementos no seu website, a acessibiliade e o SEO.
 
 ### Usabilidade
-Ao utilizar o HTML Semântico, a usalibidade, não apenas do usuário final, mas também dos desenvolvedores, é impactada enormemente. Ele nos proporciona mais consistência no design dos elementos, facilita o desenvolvimento resposivo do website, além de prover um feedback claro sobre erros que eventualmente pode ocorrer na aplicação.
+Ao utilizar o HTML Semântico, a usalibidade, não apenas do usuário final, mas também dos desenvolvedores, é impactada enormemente. Ele nos proporciona mais consistência no design dos elementos, facilita o desenvolvimento responsivo do website, além de prover um feedback claro sobre erros que eventualmente pode ocorrer na aplicação.
 
 ## Tags CSS
 
